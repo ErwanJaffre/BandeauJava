@@ -10,9 +10,10 @@ package projetbandeau;
  * @author ejaffre
  */
 public abstract class Effet {
-
+    
+    protected int n;
     public Effet() {
     }
 
-    public abstract void afficheToiSur();
+    public abstract void afficheToiSur(int n);
 }
