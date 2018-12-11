@@ -65,7 +65,7 @@ public class Chanson extends Effet {
             b.setMessage("DEBOUT");
             b.sleep(1200);
 
-            b.setBackground(Color.WHITE);
+            b.setBackground(Color.WHITE); 
 
             b.setMessage("NOTRE");
             b.sleep(200);
