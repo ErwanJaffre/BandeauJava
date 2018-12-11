@@ -21,7 +21,7 @@ public class Etoile extends Effet {
         b.setMessage("★");
         b.sleep(1000);
         b.setBackground(Color.BLACK);
-
+        
         b.setMessage("★★");
         b.sleep(1000);
 
