@@ -30,34 +30,7 @@ public class ExempleUtilisation {
         monBandeau.setBackground(Color.BLACK);
         monBandeau.sleep(1000);
 
-        monBandeau.setBackground(Color.WHITE);
-        monBandeau.sleep(700);
-        monBandeau.setBackground(Color.BLACK);
-        monBandeau.sleep(400);
-
-        monBandeau.setBackground(Color.WHITE);
-        monBandeau.sleep(200);
-        monBandeau.setBackground(Color.BLACK);
-        monBandeau.sleep(100);
-
-        monBandeau.setBackground(Color.WHITE);
-        monBandeau.sleep(50);
-        monBandeau.setBackground(Color.BLACK);
-        monBandeau.sleep(25);
-
-        monBandeau.setBackground(Color.WHITE);
-        monBandeau.sleep(10);
-        monBandeau.setBackground(Color.BLACK);
-        monBandeau.sleep(5);
-
-        monBandeau.setBackground(Color.WHITE);
-        monBandeau.sleep(5);
-        monBandeau.setBackground(Color.BLACK);
-        monBandeau.sleep(5);
-
-        monBandeau.setBackground(Color.WHITE);
-        monBandeau.sleep(5);
-
+    
         monBandeau.setMessage("Monospaced 15 Bold");
         monBandeau.setFont(new Font("Monospaced", Font.BOLD, 15));
         monBandeau.sleep(1000);
