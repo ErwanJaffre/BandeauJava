@@ -19,7 +19,7 @@ public class Bandeau {
 		private static final AffineTransform INDENTITYTRANSFORM = new AffineTransform();
 		private static final RenderingHints ANTIALIASING = new RenderingHints(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 
-		private String myMessage = "Hello World !";
+		private String myMessage = "Fermer cette fenetre";
 		private double myRotation = 0D;
 
 		public BannerPanel() {

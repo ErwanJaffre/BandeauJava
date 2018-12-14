@@ -11,25 +11,31 @@ import java.awt.Graphics2D;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.FontMetrics;
+import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Scenario {
 
-    private final Bandeau monBandeau = new Bandeau();
-    private final Etoile e = new Etoile(monBandeau);
-    private final Drapeau dp = new Drapeau(monBandeau);
-    private final Chanson c = new Chanson(monBandeau);
-    private final Zoom z = new Zoom(monBandeau);
+    private Bandeau monBandeau = new Bandeau();
 
-    public static void main(String[] args) {
-        new Scenario().pub();
+    protected ArrayList<Effet> mesAnimations = new ArrayList<>();
+    protected ArrayList<Integer> repetition = new ArrayList<>();
+
+    public Scenario(Bandeau b) {
+        this.monBandeau = b;
     }
 
-    public void pub() {
+    public void ajouterEffet(Effet e, int rep) {
+        mesAnimations.add(e);
+        repetition.add(rep);
+    }
 
-        e.afficheToiSur(2);
-        dp.afficheToiSur(2);
-        c.afficheToiSur(1);
-        z.afficheToiSur(1);
+    public void Lancer() {
+        for (Effet a : mesAnimations) {
+            for (int i = 0; i < repetition.get(mesAnimations.indexOf(a)); i++) {
+                a.afficheToiSur();
+            }
+        }
     }
 
 }

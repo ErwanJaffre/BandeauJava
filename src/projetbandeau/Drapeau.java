@@ -16,9 +16,9 @@ public class Drapeau extends Effet {
     }
 
     @Override
-    public void afficheToiSur(int n) {
+    public void afficheToiSur() {
 
-        for (int i = 1; i <= n; i++) {
+      
 
             b.setBackground(Color.BLUE);
             b.sleep(300);
@@ -29,7 +29,7 @@ public class Drapeau extends Effet {
             b.setBackground(Color.RED);
             b.sleep(300);
 
-        }
+        
     }
 
     }

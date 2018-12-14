@@ -11,9 +11,9 @@ package projetbandeau;
  */
 public abstract class Effet {
     
-    protected int n;
+   
     public Effet() {
     }
 
-    public abstract void afficheToiSur(int n);
+    public abstract void afficheToiSur();
 }

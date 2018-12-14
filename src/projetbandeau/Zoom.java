@@ -21,15 +21,12 @@ public class Zoom extends Effet {
         b.setBackground(Color.BLACK);
     }
 
-    public void afficheToiSur(int n) {
+    public void afficheToiSur() {
 
-        for (int i = 1; i <= n; i++) {
+        for (int j = 0; j < 200; j += 5) {
+            b.setFont(new Font(null, Font.BOLD, 40 + j));
+            b.sleep(70);
 
-            for (int j = 0; j < 200; j += 5) {
-                b.setFont(new Font(null, Font.BOLD, 40 + j));
-                b.sleep(70);
-
-            }
         }
     }
 }
