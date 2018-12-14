@@ -8,7 +8,7 @@ package projetbandeau;
 import java.awt.Color;
 import java.awt.Font;
 
-/**
+/** 
  * 
  * @author ejaffre
  */

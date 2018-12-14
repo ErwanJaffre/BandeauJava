@@ -3,7 +3,7 @@ package projetbandeau;
 import java.awt.Color;
 import java.awt.Font;
 
-public class ExempleUtilisation {
+public class ExempleUtilisation  {
 
     private static Bandeau monBandeau = new Bandeau();
 

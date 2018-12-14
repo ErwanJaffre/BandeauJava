@@ -34,7 +34,7 @@ public class Fade extends Effet {
              b.sleep(10);
          }
     }
-    
+     
     
     
 }
