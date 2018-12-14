@@ -10,7 +10,7 @@ package projetbandeau;
 import java.awt.Color;
 import javax.swing.JPanel;
 /**
- *
+ * 
  * @author ejaffre
  */
 public class Fade extends Effet {

@@ -14,7 +14,7 @@ import java.awt.FontMetrics;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class Scenario {
+public class Scenario { 
 
     private Bandeau monBandeau = new Bandeau();
 

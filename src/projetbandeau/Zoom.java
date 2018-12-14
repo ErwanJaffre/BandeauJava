@@ -9,7 +9,7 @@ import java.awt.Color;
 import java.awt.Font;
 
 /**
- *
+ * 
  * @author ejaffre
  */
 public class Zoom extends Effet {

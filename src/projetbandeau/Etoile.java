@@ -1,4 +1,4 @@
-package projetbandeau;
+package projetbandeau ;
 
 import java.awt.Color;
 
