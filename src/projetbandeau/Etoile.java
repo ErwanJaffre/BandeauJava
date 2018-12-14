@@ -14,7 +14,7 @@ public class Etoile extends Effet {
 
     public void afficheToiSur() {
 
-        b.sleep(3000);
+       
 
         b.setForeground(Color.YELLOW);
 

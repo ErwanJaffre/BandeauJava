@@ -16,6 +16,8 @@ public class ExempleUtilisation  {
         Chanson c = new Chanson(monBandeau);
         Zoom z = new Zoom(monBandeau);
         Fade f = new Fade(monBandeau);
+        Clignotement cl = new Clignotement(monBandeau);
+        
 
         
 //***********AJOUT DES EFFETS AU SCENARIO****************
@@ -25,6 +27,9 @@ public class ExempleUtilisation  {
         scenario.ajouterEffet(c, 1);
         scenario.ajouterEffet(z, 1);
         scenario.ajouterEffet(f, 1);
+        scenario.ajouterEffet(cl,1);
+        
+        
         
         
 //***********LANCEMENT DU SCENARIO*********************
